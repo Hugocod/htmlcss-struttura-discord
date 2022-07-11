@@ -3,3 +3,37 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+
+.global-wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: brown;
+
+  /* flexbox rules */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* END - flexbox rules */
+}
+
+.logo {
+  height: 50px;
+  width: 100px;
+  background-color: aquamarine;
+}
+
+.info-text {
+  /* flexbox rules */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* END - flexbox rules */
+}
+
+.info-text h1,
+p {
+  text-align: center;
+}
